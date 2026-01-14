@@ -1,1 +1,86 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILO GENERAL */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* CABECERA */
+header {
+    background-color: #111;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* CONTENIDO */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+}
+
+/* SECCIONES */
+section {
+    background: white;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+/* TÍTULOS */
+h1, h2 {
+    margin-bottom: 1rem;
+}
+
+/* INPUT Y BOTÓN */
+input {
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.6rem 1.2rem;
+    background-color: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+/* IMÁGENES */
+img {
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+/* ENLACES */
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* PIE */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ddd;
+}
 
