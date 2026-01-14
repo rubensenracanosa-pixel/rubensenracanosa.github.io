@@ -5,7 +5,7 @@ Este proyecto consiste en la creación y publicación de una página web estáti
 La web está desarrollada con **HTML, CSS y JavaScript**, y cumple los criterios indicados en la tarea.
 
 ## 🌐 Enlace a la web
-👉 https://TUUSUARIO.github.io
+👉 https://rubensenracanosa.github.io
 
 ## 🛠 Tecnologías utilizadas
 - HTML5
