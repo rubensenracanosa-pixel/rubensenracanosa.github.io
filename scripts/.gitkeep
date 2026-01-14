@@ -1,1 +1,45 @@
+/* =========================
+   1. CAMBIO DE TEXTO
+   ========================= */
+function cambiarTexto() {
+    const textoUsuario = document.getElementById("inputTexto").value;
+    const parrafo = document.getElementById("texto");
+
+    if (textoUsuario.trim() !== "") {
+        parrafo.textContent = textoUsuario;
+    }
+}
+
+/* =========================
+   2. INTERCAMBIO DE IMÁGENES
+   ========================= */
+const imagen = document.getElementById("imagen");
+let imagenActual = 1;
+
+imagen.addEventListener("click", () => {
+    if (imagenActual === 1) {
+        imagen.src = "images/imagen2.jpg";
+        imagenActual = 2;
+    } else {
+        imagen.src = "images/imagen1.jpg";
+        imagenActual = 1;
+    }
+});
+
+/* =========================
+   3. OBJETO EN MOVIMIENTO
+   ========================= */
+let posicion = 0;
+let direccion = 1;
+
+setInterval(() => {
+    imagen.style.position = "relative";
+    posicion += 3 * direccion;
+
+    if (posicion > 200 || posicion < 0) {
+        direccion *= -1;
+    }
+
+    imagen.style.left = posicion + "px";
+}, 50);
 
