@@ -3,70 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Proyecto Web - GitHub Pages</title>
-    <meta name="description" content="Proyecto web alojado en GitHub Pages con HTML, CSS y JavaScript">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Fuente distintiva -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
-    <!-- Estilos -->
+    <!-- CSS -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
     <header>
         <h1>Proyecto Web en GitHub Pages</h1>
-        <p>Práctica de alojamiento web con HTML, CSS y JavaScript</p>
+        <p>Práctica de HTML, CSS y JavaScript</p>
     </header>
 
     <main>
 
-        <!-- Sección texto interactivo -->
+        <!-- Texto interactivo -->
         <section>
             <h2>Texto interactivo</h2>
-            <p id="texto">
-                Escribe algo en el campo y pulsa el botón para cambiar este texto.
-            </p>
-
-            <input 
-                type="text" 
-                id="inputTexto" 
-                placeholder="Escribe aquí tu texto"
-                aria-label="Campo para introducir texto">
-
-            <button onclick="cambiarTexto()">
-                Cambiar texto
-            </button>
+            <p id="texto">Escribe algo en el campo y pulsa el botón para cambiar este texto.</p>
+            <input type="text" id="inputTexto" placeholder="Escribe algo" aria-label="Campo de texto">
+            <button onclick="cambiarTexto()">Cambiar texto</button>
         </section>
 
-        <!-- Sección imágenes -->
+        <!-- Imagen clicable -->
         <section>
             <h2>Intercambio de imágenes</h2>
-            <p>Haz clic sobre la imagen para cambiarla.</p>
-
-            <img 
-                src="images/imagen1.jpg" 
-                id="imagen" 
-                alt="Imagen relacionada con el cambio climático"
-                width="250">
+            <p>Haz clic en la imagen para cambiarla</p>
+            <img src="images/imagen1.jpg" id="imagen" alt="Imagen clicable" width="250">
         </section>
 
-        <!-- Imagen adicional -->
+        <!-- Imagen extra -->
         <section>
             <h2>Imagen adicional</h2>
-            <img 
-                src="images/imagen_extra.jpg" 
-                alt="Imagen decorativa adicional"
-                width="250">
+            <img src="images/imagen_extra.jpg" alt="Imagen decorativa adicional" width="250">
         </section>
 
         <!-- Enlace externo -->
         <section>
             <h2>Enlace de interés</h2>
-            <a 
-                href="https://elpais.com/clima-y-medio-ambiente/" 
-                target="_blank" 
-                title="Se abre en una nueva ventana: El País - Clima y Medio Ambiente">
+            <a href="https://elpais.com/clima-y-medio-ambiente/" target="_blank" title="Se abre en nueva ventana: El País - Clima y Medio Ambiente">
                 Información sobre cambio climático en EL PAÍS
             </a>
         </section>
@@ -74,14 +52,11 @@
     </main>
 
     <footer>
-        <p>
-            Proyecto realizado por <strong>Tu Nombre</strong> · 
-            Alojado en GitHub Pages
-        </p>
+        <p>Proyecto realizado por <strong>Tu Nombre</strong> · Alojado en GitHub Pages</p>
     </footer>
 
-    <!-- JavaScript -->
+    <!-- JS -->
     <script src="scripts/script.js"></script>
-
 </body>
 </html>
+
